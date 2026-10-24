@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "quickemailverify": {
+      "url": "https://quickemailverify.com/mcp",
+      "headers": {
+        "X-API-Key": "${QUICKEMAILVERIFY_API_KEY}"
+      }
+    }
+  }
+}
