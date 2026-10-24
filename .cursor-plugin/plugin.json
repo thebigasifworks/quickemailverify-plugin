@@ -1,0 +1,26 @@
+{
+  "name": "quickemailverify",
+  "displayName": "QuickEmailVerify",
+  "version": "1.0.0",
+  "description": "Verify email addresses and clean lists from your agent. Checks syntax, DNS, SMTP and catch-all domains and returns one of six clear answers (valid, role, catch_all, disposable, unknown, invalid) with a 0-100 score and typo fixes. Unknown results are free.",
+  "author": {
+    "name": "QuickEmailVerify",
+    "email": "support@quickemailverify.com"
+  },
+  "homepage": "https://quickemailverify.com/developers#c7",
+  "repository": "https://github.com/thebigasifworks/quickemailverify-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["email", "email verification", "email validation", "bounce", "list cleaning", "deliverability", "cold email", "mcp"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "QUICKEMAILVERIFY_API_KEY": {
+        "type": "string",
+        "title": "QuickEmailVerify API key",
+        "description": "Starts with ev_. Free at https://quickemailverify.com/signup (100 credits, no card)."
+      }
+    },
+    "required": ["QUICKEMAILVERIFY_API_KEY"]
+  }
+}
